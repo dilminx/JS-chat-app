@@ -1,0 +1,62 @@
+.container{
+    border: 5px solid rgb(21, 17, 228);
+    max-width: 70%;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    overflow: scroll;
+
+}
+.senderMsg{
+    background-color: rgb(63, 63, 242);
+    width: fit-content;
+    display: inline-block;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius:30px;
+    margin-bottom: 10px;
+    margin-top:5px;
+}
+/**/
+
+.reciverMsg{
+    background-color: rgb(89, 89, 91);
+    width: fit-content;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius:30px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top:5px;
+    
+}
+/**/
+
+
+.senderContainer{
+    text-align: right;
+    
+}
+.reciverContainer{
+    text-align: left;
+    
+}
+.inputContainer{
+    margin: auto;
+    width:71%;
+    background:rgb(241, 241, 162);
+    padding:10px;
+    margin-top: 10px;
+
+}
+.senderInput{
+    margin: 10px;
+
+}
+.reciverInput{
+    margin: 10px;
+
+}
+

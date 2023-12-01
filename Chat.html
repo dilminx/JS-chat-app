@@ -1,0 +1,39 @@
+<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Chatstyle.css" />
+    <title>Chat App</title>
+    
+  </head>
+  <body>
+  
+    <div class="container" id="scroll">
+      
+      
+        <div class="senderContainer" id="senderContainer">
+        <span class="senderMsg" id="senderMsg"> Sender Side</span>
+      </div>
+      <div class="reciverContainer" id="reciverContainer">
+        <span class="reciverMsg" id="reciverMsg">Reciver Side  </span>
+      </div>
+
+    
+    </div>
+
+    <div class="inputContainer">
+      <div>
+          <!-- <h3>Sender</h3> -->
+        <input class="senderInput" id="senderInput" type="text" placeholder="type sender msg" />
+        <button id="btnSend">send</button>
+      </div>
+      <div>
+        <input id="reciverInput" class="reciverInput" type="text" placeholder="type reciver msg" />
+        <button id="btnReciver">send</button>
+      </div>
+    </div>
+    <script src="chatscript.js"></script>
+  </body>
+</html>
